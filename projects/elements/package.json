@@ -1,0 +1,32 @@
+{
+  "name": "elements-my-report",
+  "version": "0.1.0",
+  "description": "MyReport designer and viewer as framework-free Web Components: <myreport-designer> and <myreport-viewer>.",
+  "keywords": [
+    "web-components",
+    "custom-elements",
+    "report",
+    "report-designer",
+    "report-viewer",
+    "odata",
+    "json"
+  ],
+  "license": "MIT",
+  "main": "./myreport-elements.js",
+  "module": "./myreport-elements.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./myreport-elements.js"
+    },
+    "./myreport-elements.js": "./myreport-elements.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "myreport-elements.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "sideEffects": true
+}

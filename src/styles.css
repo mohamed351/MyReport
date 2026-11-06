@@ -1,0 +1,4 @@
+/* Demo page only — the designer/viewer bring their own (scoped) styles from @mohamed351/angular. */
+html, body { height: 100%; margin: 0; }
+body { background: #eef1f5; }
+rpt-root { display: block; height: 100%; }

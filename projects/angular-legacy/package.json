@@ -1,0 +1,25 @@
+{
+  "name": "angular-my-report-legacy",
+  "version": "0.1.0",
+  "description": "MyReport banded report designer and viewer for every Angular version from 13 to the latest: <my-report-designer> and <my-report-viewer>.",
+  "keywords": [
+    "angular",
+    "report",
+    "report-designer",
+    "report-viewer",
+    "odata",
+    "json",
+    "pdf",
+    "print"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": ">=13.0.0 <23.0.0",
+    "@angular/core": ">=13.0.0 <23.0.0"
+  },
+  "dependencies": {
+    "elements-my-report": "^0.1.0",
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

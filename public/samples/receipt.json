@@ -1,0 +1,22 @@
+{
+  "receiptNo": "R-2026-004812",
+  "date": "2026-11-06T14:32:00",
+  "store": {
+    "name": "Nile Coffee House",
+    "address": "12 Tahrir St, Cairo",
+    "phone": "+20 2 2345 6789",
+    "taxId": "123-456-789"
+  },
+  "cashier": "Mona",
+  "table": "7",
+  "currency": "EGP",
+  "taxRate": 0.14,
+  "payment": { "method": "Cash", "paid": 350 },
+  "items": [
+    { "name": "Cappuccino", "qty": 2, "price": 45 },
+    { "name": "Croissant au beurre", "qty": 1, "price": 38.5 },
+    { "name": "Fresh orange juice (large, no ice)", "qty": 1, "price": 55 },
+    { "name": "Chocolate fudge cake slice", "qty": 2, "price": 42 },
+    { "name": "Mineral water", "qty": 3, "price": 10 }
+  ]
+}

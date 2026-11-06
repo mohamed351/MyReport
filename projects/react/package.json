@@ -1,0 +1,39 @@
+{
+  "name": "react-my-report",
+  "version": "0.1.0",
+  "description": "MyReport banded report designer and viewer for React: <MyReportDesigner> and <MyReportViewer>.",
+  "keywords": [
+    "react",
+    "report",
+    "report-designer",
+    "report-viewer",
+    "odata",
+    "json",
+    "pdf",
+    "print"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "dependencies": {
+    "elements-my-report": "0.1.0"
+  }
+}

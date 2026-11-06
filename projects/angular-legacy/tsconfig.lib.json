@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "../../out-tsc/angular-legacy",
+    "declaration": true,
+    "declarationMap": false,
+    "inlineSources": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "target": "es2017",
+    "module": "es2020",
+    "lib": ["es2020", "dom"],
+    "types": [],
+    "typeRoots": ["./toolchain/node_modules/@types"],
+    "paths": {
+      "@angular/*": ["./toolchain/node_modules/@angular/*"],
+      "rxjs": ["./toolchain/node_modules/rxjs"],
+      "rxjs/*": ["./toolchain/node_modules/rxjs/*"],
+      "tslib": ["./toolchain/node_modules/tslib"],
+      "elements-my-report": ["../elements/index.d.ts"]
+    }
+  },
+  "angularCompilerOptions": {
+    "compilationMode": "partial",
+    "enableResourceInlining": true,
+    "strictTemplates": true,
+    "strictInjectionParameters": true,
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true
+  },
+  "files": ["src/public-api.ts"]
+}
