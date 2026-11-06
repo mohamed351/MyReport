@@ -17,9 +17,9 @@ const STORAGE_KEY = 'report-designer:current';
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     @if (viewerMode) {
-      <myreport-viewer [path]="viewer.path" [report]="viewer.report" [datasource]="viewer.datasource" [type]="viewer.type" [params]="viewer.params" designerUrl="/" />
+      <myreport-viewer [path]="viewer.path" [report]="viewer.report" [datasource]="viewer.datasource" [type]="viewer.type" [params]="viewer.params" designerUrl="./" />
     } @else {
-      <myreport-designer [report]="initialReport" [persistKey]="storageKey" viewerUrl="/viewer" />
+      <myreport-designer [report]="initialReport" [persistKey]="storageKey" viewerUrl="viewer" />
     }
   `,
 })

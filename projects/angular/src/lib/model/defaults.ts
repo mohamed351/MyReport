@@ -178,7 +178,7 @@ export function orderedBands(r: ReportDefinition): Band[] {
 export function sampleReport(): ReportDefinition {
   const r = newReport();
   r.name = 'Sales Orders';
-  r.dataSource = { ...emptyDataSource(), type: 'json', url: '/samples/orders.json', dataPath: 'data.items' };
+  r.dataSource = { ...emptyDataSource(), type: 'json', url: 'samples/orders.json', dataPath: 'data.items' };
   r.sort = [{ field: 'OrderDate', direction: 'asc' }];
   const band = (t: BandType) => r.bands.find((b) => b.type === t)!;
 

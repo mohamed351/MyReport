@@ -238,7 +238,7 @@ export function receiptReport(paper: 80 | 58 = 80): ReportDefinition {
     name: `Receipt ${paper}mm`,
     page: { width, height: 1123, marginTop: 10, marginBottom: 14, marginLeft: margin, marginRight: margin, continuous: true },
     dataSource: {
-      type: 'json', url: '/samples/receipt.json', inline: '', dataPath: 'items', headers: '',
+      type: 'json', url: 'samples/receipt.json', inline: '', dataPath: 'items', headers: '',
       entitySet: '', select: '', filter: '', orderby: '', expand: '', top: null, maxRows: 5000,
     },
     groups: [],
